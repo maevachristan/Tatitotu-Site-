@@ -1,16 +1,20 @@
 @import "bootstrap/scss/bootstrap-grid";
 @import "base";
 @import "layout";
+@import "modules/_logo.css";
+@import "modules/_title.css";
+@import "modules/_main-buttons.css";
+@import "modules/_dropdown-button.css";
+@import "modules/_need-button.css";
 
-
-.row + .row {
-    margin-top: 16px;
-  }
+// .row + .row {
+//     margin-top: 16px;
+//   }
   
-  .row > .col,
-  .row > [class^=col-] {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: rgba(86, 61, 124, .15);
-    border: 1px solid rgba(86, 61, 124, .2);
-  }
+//   .row > .col,
+//   .row > [class^=col-] {
+//     padding-top: 12px;
+//     padding-bottom: 12px;
+//     background-color: rgba(86, 61, 124, .15);
+//     border: 1px solid rgba(86, 61, 124, .2);
+//   }

@@ -7,44 +7,72 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <header>
+    <header class="l-header">
       <div class="container">
         <div class="row">
           <div class="col-2">
-            <img src="../img/tatitotu_logo_bleu2.svg" alt="Le logo du site">
+            <img class="logo" src="../img/tatitotu_logo_bleu2.svg" alt="Le logo du site">
           </div>
           <div class="col-8"><h1>defis de conjugaison</h1></div>
         </div>
       </div>
     </header>
-    <main>
+    <main class="l-main">
       <div class="container">
         <div class="row">
-          <div class="col-4">
-            <div class="main-button">tutoriel</div>
+          <div class="col-2">
+            <div class="main-button tutorial">tutoriel</div>
           </div>
-          <div class="col-4">
-            <div class="main-button">exercer</div>
+          <div class="col-2 offset-3">
+            <div class="main-button training">
+              <img class="icon" src="../img/chat_ icon.svg" alt="Icône de conversation">
+              exercer
+            </div>
           </div>
-          <div class="col-4">
-            <div class="main-button">imprimer</div>
+          <div class="col-2 offset-3">
+            <div class="main-button print">
+              <img class="icon" src="../img/print_ icon.svg" alt="Icône d'imprimante">
+              imprimer
+            </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-8">
-            <div class="dropdown-button">5H</div>
-            <div class="dropdown-buttob">6H</div>
-            <div class="dropdown-button">7H</div>
-            <div class="dropdown-button">8H</div>
-            <div class="dropdown-button">9H</div>
-            <div class="dropdown-button">10H</div>
-            <div class="dropdown-button">11H</div>
-            <div class="dropdown-button">Groupes</div>
-            <div class="dropdown-button">Difficiles</div>
-            <div class="dropdown-button">Pronom.</div>
-            <div class="dropdown-button">CIF (FLE)</div>
+          <div class="col-8 l-main-buttons">
+            <div class="dropdown-button five">5H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button six">6H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button seven">7H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button eight">8H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button nine">9H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button ten">10H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button eleven">11H
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button groups">Groupes
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button hard">Difficiles
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button pronominals">Pronom.
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
+            <div class="dropdown-button cif">CIF (FLE)
+              <img class="develop" src="../img/develop.svg" alt="Flèche">
+            </div>
           </div>
           <div class="col-4">
             <div class="row">
@@ -52,8 +80,14 @@
                 <input class="typing-bar" type="text" name="download-code" placeholder="Code à 8 caractères">
               </div>
               <div class="col-6">
-                <div class="need-button">sauvegarder</div>
-                <div class="need-button">charger le défi</div>
+                <div class="need-button save">
+                  <img class="icon-need" src="../img/save_ icon.svg" alt="Icône de sauvegarde">
+                  sauvegarder
+                </div>
+                <div class="need-button download">
+                  <img class="icon-need" src="../img/download_ icon.svg" alt="Icône de téléchargement">
+                  charger le defi
+                </div>
               </div>
             </div>
           </div>
@@ -181,7 +215,9 @@
                 <h2>options</h2>
               </div>
               <p>Nombre de questions</p>
-              <div class="dropdown-button">select</div>
+              <div class="dropdown-button select">20
+                <img class="develop" src="../img/develop.svg" alt="Flèche">
+              </div>
               <hr>
               <p>Type(s)</p>
               <input class="options-choice first" type="radio" name="options-choice">
@@ -196,7 +232,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="l-footer">
       <div class="container">
         <div class="row">
           <div class="col-12">

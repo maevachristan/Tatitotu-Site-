@@ -1,11 +1,16 @@
-header {
+.l-header {
     background: linear-gradient(#b9eaff, #ffffff);
 }
 
-main {
+.l-main {
     background: linear-gradient(#d1f1ff, #005280);
 }
 
-footer {
+.l-footer {
     background-color: #002f48;
+}
+
+.l-main-buttons {
+    display: flex;
+    margin: 40px 0;
 }
