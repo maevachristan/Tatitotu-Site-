@@ -7,37 +7,204 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-2">colonne 1</div>
-        <div class="col-8">colonne 2</div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="../img/tatitotu_logo_bleu2.svg" alt="Le logo du site">
+          </div>
+          <div class="col-8"><h1>defis de conjugaison</h1></div>
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">colonne 3</div>
-        <div class="col-4">colonne 4</div>
-        <div class="col-4">colonne 5</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-8">colonne 6</div>
-        <div class="col-4">colonne 7
-          <div class="row">
-            <div class="col-6">colonne 11</div>
-            <div class="col-6">colonne 12</div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="main-button">tutoriel</div>
+          </div>
+          <div class="col-4">
+            <div class="main-button">exercer</div>
+          </div>
+          <div class="col-4">
+            <div class="main-button">imprimer</div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">colonne 8</div>
-        <div class="col-4">colonne 9</div>
-        <div class="col-4">colonne 10</div>
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="dropdown-button">5H</div>
+            <div class="dropdown-buttob">6H</div>
+            <div class="dropdown-button">7H</div>
+            <div class="dropdown-button">8H</div>
+            <div class="dropdown-button">9H</div>
+            <div class="dropdown-button">10H</div>
+            <div class="dropdown-button">11H</div>
+            <div class="dropdown-button">Groupes</div>
+            <div class="dropdown-button">Difficiles</div>
+            <div class="dropdown-button">Pronom.</div>
+            <div class="dropdown-button">CIF (FLE)</div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-6">
+                <input class="typing-bar" type="text" name="download-code" placeholder="Code à 8 caractères">
+              </div>
+              <div class="col-6">
+                <div class="need-button">sauvegarder</div>
+                <div class="need-button">charger le défi</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <div class="card-banner">
+                <h2>mes verbes</h2>
+                <div class="verbs-total">3</div>
+              </div>
+              <p class="unclick-to">Tout supprimer</p>
+              <div class="add-verbs-section">
+                <input class="typing-bar" type="text" name="add-verb" placeholder="Ajouter un verbe">
+                <div class="typing-bar-add">+</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-banner">
+                <h2>mes temps</h2>
+              </div>
+              <p class="click-to">Tout cocher</p>
+              <p class="unclick-to">Tout décocher</p>
+              <div class="tense">
+                <h3>indicatif</h3>
+                <hr>
+                <div class="example">i</div>
+                <input class="check-tense first" type="checkbox" name="check-tense">
+                <label for="check-tense first">Présent</label>
+                <div class="example">i</div>
+                <input class="check-tense 2nd" type="checkbox" name="check-tense">
+                <label for="check-tense 2nd">Passé composé</label>
+                <div class="example">i</div>
+                <input class="check-tense 3rd" type="checkbox" name="check-tense">
+                <label for="check-tense 3rd">Imparfait</label>
+                <div class="example">i</div>
+                <input class="check-tense 4th" type="checkbox" name="check-tense">
+                <label for="check-tense 4th">Plus-que-parfait</label>
+                <div class="example">i</div>
+                <input class="check-tense 5th" type="checkbox" name="check-tense">
+                <label for="check-tense 5th">Futur simple</label>
+                <div class="example">i</div>
+                <input class="check-tense 6th" type="checkbox" name="check-tense">
+                <label for="check-tense 6th">Futur antérieurx</label>
+                <div class="example">i</div>
+                <input class="check-tense 7th" type="checkbox" name="check-tense">
+                <label for="check-tense 7th">Passé simple</label>
+                <div class="example">i</div>
+                <input class="check-tense 8th" type="checkbox" name="check-tense">
+                <label for="check-tense 8th">Passé antérieur</label>
+                <hr>
+              </div>
+              <div class="tense">
+                <h3>imperatif</h3>
+                <hr>
+                <div class="example">i</div>
+                <input class="check-tense 9th" type="checkbox" name="check-tense">
+                <label for="check-tense 9th">Présent</label>
+                <div class="example">i</div>
+                <input class="check-tense 10th" type="checkbox" name="check-tense">
+                <label for="check-tense 10th">Passé</label>
+                <hr>
+              </div>
+              <div class="tense">
+                <h3>subjonctif</h3>
+                <hr>
+                <div class="example">i</div>
+                <input class="check-tense 11th" type="checkbox" name="check-tense">
+                <label for="check-tense 11th">Présent</label>
+                <div class="example">i</div>
+                <input class="check-tense 12th" type="checkbox" name="check-tense">
+                <label for="check-tense 12th">Passé</label>
+                <div class="example">i</div>
+                <input class="check-tense 13th" type="checkbox" name="check-tense">
+                <label for="check-tense 13th">Imparfait</label>
+                <div class="example">i</div>
+                <input class="check-tense 14th" type="checkbox" name="check-tense">
+                <label for="check-tense 14th">Plus-que-parfait</label>
+                <hr>
+              </div>
+              <div class="tense">
+                <h3>conditionnel</h3>
+                <hr>
+                <div class="example">i</div>
+                <input class="check-tense 15th" type="checkbox" name="check-tense">
+                <label for="check-tense 15th">Présent</label>
+                <div class="example">i</div>
+                <input class="check-tense 16th" type="checkbox" name="check-tense">
+                <label for="check-tense 16th">Passé 1</label>
+                <div class="example">i</div>
+                <input class="check-tense 17th" type="checkbox" name="check-tense">
+                <label for="check-tense 17th">Passé 2</label>
+                <hr>
+              </div>
+              <div class="tense">
+                <h3>participe</h3>
+                <hr>
+                <div class="example">i</div>
+                <input class="check-tense 18th" type="checkbox" name="check-tense">
+                <label for="check-tense 18th">Présent</label>
+                <div class="example">i</div>
+                <input class="check-tense 19th" type="checkbox" name="check-tense">
+                <label for="check-tense 19th">Passé</label>
+                <hr>
+              </div>
+              <div class="tense">
+                <h3>gerondif</h3>
+                <hr>
+                <div class="example">i</div>
+                <input class="check-tense 20thth" type="checkbox" name="check-tense">
+                <label for="check-tense 20th">Présent</label>
+                <div class="example">i</div>
+                <input class="check-tense 21th" type="checkbox" name="check-tense">
+                <label for="check-tense 21th">Passé</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-banner">
+                <h2>options</h2>
+              </div>
+              <p>Nombre de questions</p>
+              <div class="dropdown-button">select</div>
+              <hr>
+              <p>Type(s)</p>
+              <input class="options-choice first" type="radio" name="options-choice">
+              <label for="options-choice first">normal</label> 
+              <input class="options-choice 2nd" type="radio" name="options-choice">
+              <label for="options-choice 2nd">Trouver mode + temps</label>
+              <hr>
+              <label for="check-print">Options d'impression</label>
+              <input class="check-print" type="checkbox" name="check-print"> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="mailto:christophe.roulet@edu-vd.ch">Contact:christophe.roulet@edu-vd.ch</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
