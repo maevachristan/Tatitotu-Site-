@@ -1,0 +1,21 @@
+.main-button {
+    background-color: #5d96b8;
+    border-radius: 100px;
+    color: #f9fcfe;
+    font-family: 'Lost Fish';
+    font-size: 18px;
+    margin: 41px 0 16px 0;
+    padding: 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tutorial {
+    background-color: #00c5b9;
+    opacity: 60%;
+}
+
+.icon {
+    margin-right: 10px;
+    width: 20px;
+}

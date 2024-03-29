@@ -1,6 +1,10 @@
 @import "bootstrap/scss/bootstrap-grid";
 @import "base";
 @import "layout";
+@import "modules/_logo.css";
+@import "modules/_title.css";
+@import "modules/_main-button.css";
+@import "modules/_need-button.css";
 
 .row + .row {
     margin-top: 16px;

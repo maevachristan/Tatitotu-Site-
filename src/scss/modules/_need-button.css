@@ -1,0 +1,22 @@
+.need-button {
+    background-color: #238dcd;
+    border-radius: 10px;
+    color: #f9fcfe;
+    font-family: 'Lost Fish';
+    font-size: 16px;
+    padding: 11px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.download {
+    background-color: #afffff;
+    color: #238dcd;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.icon-need {
+    margin-right: 3px;
+    width: 20px;
+}
