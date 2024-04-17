@@ -5,15 +5,16 @@
 @import "modules/_title.css";
 @import "modules/_main-button.css";
 @import "modules/_need-button.css";
+@import "modules/_dropdown-button.css";
 
-.row + .row {
-    margin-top: 16px;
-  }
+// .row + .row {
+//     margin-top: 16px;
+//   }
   
-  .row > .col,
-  .row > [class^=col-] {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: rgba(86, 61, 124, .15);
-    border: 1px solid rgba(86, 61, 124, .2);
-  }
+//   .row > .col,
+//   .row > [class^=col-] {
+//     padding-top: 12px;
+//     padding-bottom: 12px;
+//     background-color: rgba(86, 61, 124, .15);
+//     border: 1px solid rgba(86, 61, 124, .2);
+//   }
