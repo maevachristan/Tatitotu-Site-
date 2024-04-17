@@ -1,0 +1,14 @@
+.verbs-total {
+    background-color: #bfe3f4;
+    border-radius: 100px;
+    color: #238dcd;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    height: 22px;
+    padding: 3px 7px;
+    position: absolute;
+    right: 22px;
+    top: 13px;
+    width: 22px;
+}

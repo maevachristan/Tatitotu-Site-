@@ -1,0 +1,14 @@
+.code {
+    border: none;
+    border-radius: 10px;
+    margin-top: 53px;
+    padding: 13px 0 11px 11px;
+    width: 193px;
+}
+
+.code::placeholder {
+    color: #238dcd;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 17px;
+    opacity: 26%;
+}

@@ -61,3 +61,17 @@
 .groups, .hard, .pronominals, .cif {
     width: 82px;
 }
+
+.select {
+    background-color: #5d96b8;
+    flex-direction: row;
+    font-size: 22px;
+    height: 45px;
+    justify-content: space-around;
+    padding: 4px 15px 0;
+    width: 95px;
+}
+
+.select .develop {
+    width: 26px;
+}

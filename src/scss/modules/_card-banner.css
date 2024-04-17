@@ -1,0 +1,10 @@
+.card-banner {
+    background-color: #238dcd;
+    border-radius: 10px 10px 0 0;
+    color: #bfe3f4;
+    font-family: 'Lost Fish';
+    padding: 13px 0 8px 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
