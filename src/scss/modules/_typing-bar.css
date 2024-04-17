@@ -9,6 +9,24 @@
 .code::placeholder {
     color: #238dcd;
     font-family: 'Baloo Paaji 2', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     opacity: 26%;
+}
+
+.choose {
+    background-color: #aad3e7;
+    border: none;
+    border-radius: 10px;
+    height: 55px;
+    margin: 3px 23px 19px;
+    opacity: 26%;
+    padding: 4px 0 0 23px;
+    position: relative;
+    width: 370px;
+}
+
+.choose::placeholder {
+    color: #238dcd;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 18px;
 }

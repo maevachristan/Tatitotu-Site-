@@ -3,3 +3,17 @@
     border-radius: 10px;
     position: relative;
 }
+
+hr {
+    background-color: #238dcd;
+    border: none;
+    height: 0.5px;
+    margin: 0 0 0 23px;
+    width: 370px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 25px 0 12px 22px;
+    text-transform: uppercase;
+}
