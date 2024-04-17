@@ -1,0 +1,18 @@
+.click-to {
+    color: #ec5579;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.select-all {
+    color: #0053a1;
+    left: 23px;
+    position: absolute;
+    top: 56px;
+}
+
+.unselect {
+    margin: 8px 23px 0;
+    text-align: right;
+}
