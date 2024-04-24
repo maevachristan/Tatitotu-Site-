@@ -1,0 +1,12 @@
+.verb-bubble {
+    background-color: #4bd0d0;
+    border-radius: 100px;
+    color: #f9fcfe;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 12px 26px;
+    position: relative;
+    text-align: center;
+    width: 111px;
+}

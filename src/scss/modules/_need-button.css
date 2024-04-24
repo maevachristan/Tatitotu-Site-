@@ -16,7 +16,17 @@
     margin-top: 8px;
 }
 
+.download:hover {
+    background-color: #66f3f2;
+    color: #f9fcfe;
+}
+
+.save:hover {
+    background-color: #60c3ff;
+}
+
 .icon-need {
     margin-right: 3px;
     width: 20px;
 }
+
