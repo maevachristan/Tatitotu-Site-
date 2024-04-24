@@ -1,0 +1,23 @@
+.switch-wrapper {
+    display: inline-block; 
+    width: 30px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    background: orange;
+  }
+
+.switch-inner {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: red;
+}
+
+input:checked + .switch-wrapper .switch-inner {
+    margin-left: 10px;
+  }
+
+  .switch input {
+    display: none;
+  }
