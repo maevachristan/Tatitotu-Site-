@@ -30,3 +30,21 @@
     font-family: 'Baloo Paaji 2', sans-serif;
     font-size: 18px;
 }
+
+.options {
+    background-color: #aad3e7;
+    border: none;
+    border-radius: 10px;
+    height: 51px;
+    margin: 16px 23px 16px;
+    opacity: 26%;
+    padding: 4px 0 0 20px;
+    position: relative;
+    width: 370px;
+}
+
+.options::placeholder {
+    color: #238dcd;
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 18px;
+}

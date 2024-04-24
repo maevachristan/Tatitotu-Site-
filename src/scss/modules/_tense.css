@@ -1,0 +1,12 @@
+.tense-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 23px;
+}
+
+.tense-item {
+    align-items: center;
+    display: flex;
+    margin: 12px 0;
+    width: 50%;
+}
