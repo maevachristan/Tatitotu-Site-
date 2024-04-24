@@ -377,30 +377,40 @@
             </div>
           </div>
           <div class="col-4">
-            <div class="card">
+            <div class="card my-options">
               <div class="card-banner">
                 <h2>options</h2>
               </div>
-              <p>Nombre de questions</p>
-              <div class="dropdown-button select">20
-                <img class="develop" src="../img/develop.svg" alt="Flèche">
+              <div class="questions-number">
+                <p>Nombre de questions</p>
+                <div class="dropdown-button select">20
+                  <img class="develop" src="../img/develop.svg" alt="Flèche">
+                </div>
               </div>
               <hr>
-              <p>Type(s)</p>
-              <input class="options-choice first" type="radio" name="options-choice">
-              <label for="options-choice first">normal</label> 
-              <input class="options-choice 2nd" type="radio" name="options-choice">
-              <label for="options-choice 2nd">Trouver mode + temps</label>
-              <hr>
-              <label class="switch">
-                Options d'impression
-                <input type="checkbox" />
-                <div class="switch-wrapper">
-                  <div class="switch-inner"></div>
+              <div class="questions-type">
+                <p>Type(s)</p>
+                  <div class="options-choice">
+                  <input class="first" type="radio" name="options-choice">
+                  <label for="first">normal</label> 
                 </div>
-              </label> 
+                <div class="options-choice">
+                  <input class="2nd" type="radio" name="options-choice">
+                  <label for="2nd">Trouver mode + temps</label>
+                </div>
+              </div>
+              <hr>
+              <div class="options-item print-options">
+                <label class="switch">
+                  Options d'impression
+                  <input type="checkbox" />
+                  <div class="switch-wrapper">
+                    <div class="switch-inner"></div>
+                  </div>
+                </label>
+              </div>
               <input class="typing-bar options" type="text" name="write-option" placeholder="Défi de conjugaison">
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -409,7 +419,7 @@
                   Afficher un espace pour la note
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -418,7 +428,7 @@
                   Afficher un espace pour le prénom
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -427,7 +437,7 @@
                   Afficher un espace pour le nom
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -436,7 +446,7 @@
                   Afficher un espace pour la date
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -445,7 +455,7 @@
                   Afficher les verbes évalués
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -454,7 +464,7 @@
                   Afficher les temps évalués
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -463,7 +473,7 @@
                   Afficher les pronoms inclusifs (il/elle/iel)
                 </label>
               </div>
-              <div>
+              <div class="options-item">
                 <label class="switch">
                   <input type="checkbox" />
                   <div class="switch-wrapper">
@@ -477,14 +487,8 @@
         </div>
       </div>
     </main>
-    <footer class="l-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <a href="mailto:christophe.roulet@edu-vd.ch">Contact:christophe.roulet@edu-vd.ch</a>
-          </div>
-        </div>
-      </div>
+    <footer class="l-footer contact">
+    <a href="mailto:christophe.roulet@edu-vd.ch">Contact:christophe.roulet@edu-vd.ch</a>
     </footer>
     <script src="js/main.js" type="module"></script>
   </body>

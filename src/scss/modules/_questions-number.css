@@ -1,0 +1,9 @@
+.questions-number {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 23px 11px;
+}
+
+.questions-number p {
+    padding-top: 15px;
+}

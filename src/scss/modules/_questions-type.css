@@ -1,0 +1,12 @@
+.questions-type {
+    display: flex;
+    margin: 11px 23px;
+}
+
+.questions-type p {
+    margin-right: 123px;
+}
+
+.options-choice {
+    display: flex;
+}
